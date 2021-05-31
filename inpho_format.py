@@ -11,7 +11,7 @@ with open(f'{main_path}190390_WgPN_RGBI_2020.prj', 'r') as f:
     line_lst = list()
     print_line = False
     for line in f:
-        #print(f"###{line}### --- ###$PHOTO\n###")
+        print(f"###{line}### --- ###$PHOTO\n###")
         #print(print_line)
         if line == f'$PHOTO\n':
             print_line = True
